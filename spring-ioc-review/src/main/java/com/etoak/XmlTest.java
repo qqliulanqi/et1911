@@ -12,7 +12,7 @@ public class XmlTest {
 		// TODO Auto-generated method stub
 		ApplicationContext ac = new ClassPathXmlApplicationContext("spring.xml");
 		UserAction userAction = ac.getBean(UserAction.class);
-		User user = userAction.getById(100);
+		User user = userAction.getById(200);
 		System.out.println(user.getId());
 	}
 
