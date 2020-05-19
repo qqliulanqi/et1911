@@ -7,7 +7,6 @@ import com.etoak.action.UserAction;
 import com.etoak.bean.User;
 
 public class XmlTest {
-
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ApplicationContext ac = new ClassPathXmlApplicationContext("spring.xml");
