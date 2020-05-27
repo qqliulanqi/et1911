@@ -10,4 +10,11 @@
 				age
 			from t_springmvc_user where id = #{id}
 	</select>
+	<select id="getByNameAndPassword" resultType="User">
+		select id,
+				name,
+				password,
+				age
+			from t_springmvc_user where name=#{name} and password=#{password}
+	</select>
 </mapper>

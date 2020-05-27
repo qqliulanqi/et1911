@@ -12,6 +12,9 @@
 </style>
 </head>
 <body>
+<div>
+	<span th:text="${paramError}"></span>
+</div>
 <h2>车辆添加</h2>
 	<div id="form">
 	
@@ -60,7 +63,7 @@
 		  
 		  <!-- 6.变速箱 -->
 		  <div class="form-group">
-		    <label for="gearbox" class="col-sm-2 control-label">变数箱</label>
+		    <label for="gearbox" class="col-sm-2 control-label">变速箱</label>
 		    <div class="col-sm-6 input-group" id="gearbox">
 		      
 		      <!-- <label class="radio-inline">
@@ -137,7 +140,7 @@
 			et1911.querySelectDict('level')
 			et1911.querySelectDict('output_volume')
 			et1911.queryGearbox()
-			et1911.validateForm()
+			//et1911.validateForm()
 		})
 		let et1911={
 				validateForm:function(){

@@ -22,7 +22,7 @@ public class DictController {
 	@GetMapping("/{groupId}")
 	public List<Dict> queryList(@PathVariable String groupId){
 		log.info("param {}",groupId);
-		return dictSevice.queryList(groupId);
+		 return dictSevice.queryList(groupId); 
 	}
 	
 }
