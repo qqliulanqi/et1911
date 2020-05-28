@@ -12,7 +12,8 @@
     <module>springmvc-03</module>
     <module>springmvc-04-param</module>
     <module>springmvc-05-car</module>
-</modules>
+    <module>et1911.activemq</module>
+	</modules>
 	<!-- 声明依赖，管理依赖 -->
 	<dependencyManagement>
 		<dependencies>
@@ -108,6 +109,7 @@
 		    	<artifactId>commons-codec</artifactId>
 		    	<version>1.13</version>
 		    </dependency>
+		    
 		</dependencies>
 	</dependencyManagement>
 
